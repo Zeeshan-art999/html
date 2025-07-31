@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    }
+.hello{
+    /*text-align: center;*/
+    background-color: aqua;
+    margin: 20px 30px 40px 20px ;
+   /* jasa necha  h2 ma padding ma left right  wagara leka ha wasa he is sa uper magin ma be use ho raha
+   margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-bottom: 20px;*/
+    padding: 20px 30px;
+    /*border: 10px solid red; shortcut property ha*/
+    /*border-color: green;
+    border-width:5px ;
+    border-style: groove;
+    /*dotted,dash,groove,none,hidden,solid*/
+    border-top: 4px solid sienna;
+    border-bottom: 4px solid skyblue;
+    border-left:4px solid yellow;
+    border-right: 4px dotted slateblue;
+    border-right-color: aqua;
+    border-right-style: solid;
+    border-right-width: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+/*h2 ki jaga lagaya ha .sdf*/
+.sdf{
+    background-color: blueviolet;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+    padding: 20px 30px ;
+    padding: 20px 30px 50px;
+    padding: 20px 30px 40px 20px;
+    margin: 0px;
+    /*width: 50%;
+    height: 200px;* necha v sa view*/
+    width: 60vw;
+    height: 50vh;
+}
+a{
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    background-image: url('./bg.jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    /*background-clip: border-box;
+    background-origin: content-box;* ya net sa dekhna sir ko b na pta tha*/
+    background-color: aqua;
+    /*background: fixed url('./bg.jpg.jpg' no-repeat center/content-box content-box aqua);* AK sath be lekh skta sara*/
+}
+.bg1{
+    background-color: rgba(22, 4, 4, 0.274);
+    height: 100vh;
+    color: rgba(255, 255, 255, 0.185);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+table{
+    width: 100%;
+}
+th,td{
+border-bottom: 1px solid black;
+padding: 10px;
+text-align: center;
+}
+th{
+    background-color: aqua;
+} 
+tr:hover{
+    background-color: gray;
+    color: white;
+}
+/*tr:nth-child(even){
+    background-color: lightblue;
+}
+tr:nth-child(old){
+    background-color:lightgreen;
+}*/
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+input:focus{
+    border:2px solid red !important;
+    outline: none;
+    width: 300px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px spid black;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+}
+button:hover{
+    background-color: blue;
+}
+.abc:hover{
+    color: white;
+}
