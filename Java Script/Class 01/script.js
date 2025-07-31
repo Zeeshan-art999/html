@@ -26,13 +26,12 @@
 //1. Arithmetic Operators
 //+,-,*,/,%,++,--//
 
-var a=18;
+var a=10;
 var b=20;
-
 
 var c = 2 + ++a - a--;
 console.log(c); 
-  
+
 
 //var c=++,
 //prefix increment
