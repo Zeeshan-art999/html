@@ -17,8 +17,8 @@
 
 //var userNumberValue=123;//camel case
 //var user_number_value=123;//snake case
- //var UserNumberValue=123;//pascal case
- //var USER_NUMBER_VALUE=123;//scereaming snake case
+//var UserNumberValue=123;//pascal case
+//var USER_NUMBER_VALUE=123;//scereaming snake case
 //var user_number_Value=123;//kebabcase
 
 
@@ -65,9 +65,6 @@ console.log(c);
 //console.log(c); //200
 //c=a/b;
 //console.log(c); //0.5
-
-
-
 
 
 

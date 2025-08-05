@@ -11,7 +11,7 @@ num %=3; // num = num % 3
 //3:Comparison operators:-ture or false
 //==,===,!=,!==,>,<,>=,<=
 //var a = 10;  var a="10"; 
-var b = 20;
+//var b = 20;
 var c=a==b; // false
 var c=a!=b; // true
 var c=a<b; // true
@@ -19,7 +19,7 @@ var c=a>b; // false
 var c=a<=b; // true
 var c=a>=b; // false
 var c=a===b; // false 
- var c=a!==b; // true 
+var c=a!==b; // true 
 //console.log(c);
 
 //4:Logical operators:-true or false
@@ -49,7 +49,7 @@ var y = 20;
 //var result=2+2 >=4?
 //console.log(result);
 
-   farhrenheit (F)=(Temperature in degree Celsius (C) * 9/5) + 32;
+   farhrenheit (F)=(Temperature in degree celsius (C) * 9/5) + 32;
    var tempincelsius = 100;
    var tempincelsius = (tempincelsius * 9/5) + 32;
    console.log("Temperature in Fahrenheit: " + tempincelsius + "°F");

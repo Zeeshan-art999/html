@@ -1,9 +1,9 @@
 //write a program that draw the table of 4
-var count=1;
-while(count <=10){
-    console.log(`4*${count} = ${4 * count}`);
-    count++;
-}
+//var count=1;
+//while(count <=10){
+//    console.log(`4*${count} = ${4 * count}`);
+//    count++;
+//}
 
 
 
@@ -46,7 +46,8 @@ while(count <=10){
 //    case "1":{
 //        console.log("Monday");
 //        break;
-//    } case "2":{
+//    }
+//     case "2":{
 //        console.log("Tuesday");
 //        break;
 //    }
@@ -94,13 +95,14 @@ while(count <=10){
 //    console.log("Invalid marks")
 //}
 
-
+//var userinput = prompt("Enter a number"); 
 //if(userinput==0){
 // console.log("Number is zero")
 //}
-//else if(userinput % 2== 0) {
+//else if(userinput % 2== 0)
+//     {
 //   console.log("Number is even");
 //}
 //else{
-//  console.log("Number is old");
+//   console.log("Number is old");
 //}
