@@ -42,6 +42,7 @@ console.log("Hello World4");
 
 
 //string built-in methods:-
+
 //var title = "I love JavaScript";
 // console.log(tittle.toUpperCase());//I LOVE JAVASCRIPT
 // console.log(tittle.toLowerCase());//i love javascript
