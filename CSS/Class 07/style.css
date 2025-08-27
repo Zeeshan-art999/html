@@ -1,0 +1,79 @@
+.box1{
+    background-color: red;
+    color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 20px;
+    transform:rotate(0deg);
+   /* transition: transform 2s ease-in;*/
+    animation: abc 2s ease-in 0s infinite ;
+}
+
+@keyframes abc{
+    0%{
+        transform:rotate(0deg) ;
+        background-color: darkcyan;
+        border-radius: 20px;
+        height: 110px;
+    }
+    50%{
+        transform: rotate(50deg);
+        background-color: darkred;
+        border-radius: 20px;
+        height: 120px;
+    }
+    100%{
+          transform: rotate(360deg);
+          background-color: cornflowerblue;
+          border-radius: 20px;
+          height: 140px;
+    }
+}
+
+
+/*.box1:hover{
+        transform: rotate(360deg);
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.parents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: yellow;
+    flex-wrap: wrap;
+   /* gap: 10px;
+    row-gap: 50px;
+}
+.child1{
+    background-color: aqua;
+    padding: 10px;
+    max-width: 30%;
+}
+.child2{
+    background-color: blue;
+    padding: 10px;
+    max-width: 30%;
+}
+.child3{
+    background-color: chartreuse;
+    padding: 10px;
+    max-width: 30%;
+}*/

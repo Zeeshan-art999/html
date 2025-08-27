@@ -1,0 +1,46 @@
+#one{
+/*background-color: aqua;*/
+background-color: lightsalmon;
+width: 49%;
+/*height: 200px;*/
+float: left;
+}
+#two{
+/*background-color: blue;*/
+width: 49%;
+/*height: 200px;*/
+float: left;
+background-color:lightsalmon ;
+
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+}
+#Parent{
+    background-color: lightsalmon;
+}
+#three{
+    background-color: red; 
+    margin-left: 3%;
+    width: 30%;
+    height: 200px;
+    float: left;
+    /*clear:both*/
+}
+@media screen and (min-width:200px)and (max-width:600px){ 
+    #one,#two,#three{
+    width:100%;}
+}
+@media  screen and (max-widht:500px) {
+h1:hover{
+    background-color: red;
+}
+    
+}
+@media screen and (min-width:700px)and(mix-width:800px){
+    h1{
+        background-color: yellow;
+    }
+}
